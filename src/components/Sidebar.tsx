@@ -11,22 +11,22 @@ function Sidebar() {
              sm={{span:3}}
              className={'background-third text-white h-100'}>
             <SidebarImageAndName image={PlaceholderImage} text={'Full Name'}/>
-            <div className={'ml-5'}>
-                <Row className={'mb-3 w-75'}>
-                    <Link to={'/'} className={'text-white'}>Home</Link>
-                </Row>
-                <Row className={'mb-3 w-75'}>
-                    <Link to={'/about'} className={'text-white'}>About</Link>
-                </Row>
-                <Row className={'mb-3 w-75'}>
-                    <Link to={'/resume'} className={'text-white'}>Resume</Link>
-                </Row>
-                <Row className={'mb-3 w-75'}>
-                    <Link to={'/contact'} className={'text-white'}>Examples</Link>
-                </Row>
-                <Row className={''}>
-                    <Link to={'/contact'} className={'text-white'}>Contact</Link>
-                </Row>
+            <div className={'ml-4'}>
+                <Link to={'/'} className={'mb-3 w-75 text-white'}>
+                    <p className={'text-white'}>Home</p>
+                </Link>
+                <Link to={'/about'}  className={'text-white mb-3 w-75'}>
+                    <p className={'text-white'}>About</p>
+                </Link>
+                <Link to={'/resume'} className={'mb-3 w-75 text-white'}>
+                    <p className={'text-white'}>Resume</p>
+                </Link>
+                <Link to={'/contact'}  className={'mb-3 w-75 text-white'}>
+                    <p className={'text-white'}>Examples</p>
+                </Link>
+                <Link to={'/contact'} className={'text-white'}>
+                    <p className={'text-white'}>Contact</p>
+                </Link>
             </div>
         </Col>
     )

@@ -11,6 +11,7 @@ import Contact from "./components/Contact";
 import About from "./components/About";
 import Sidebar from "./components/Sidebar";
 import {Row} from 'react-bootstrap';
+import Resume from "./components/Resume";
 function App() {
   return (
     <div className="app">
@@ -24,6 +25,9 @@ function App() {
             <Route path="/contact">
               <Contact/>
             </Route>
+              <Route path="/resume">
+                  <Resume/>
+              </Route>
             <Route path="/">
               <Home />
             </Route>

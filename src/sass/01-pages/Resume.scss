@@ -1,0 +1,24 @@
+.chronology-container{
+  border-left:1px solid $third-color;
+}
+$chronology-circle-size: 16px;
+.chronology-circle-top{
+  width:$chronology-circle-size;
+  height:$chronology-circle-size;
+  border: $chronology-circle-size/6 solid $third-color;
+  background-color: $secondary-color;
+  //border-radius:50%;
+  position: absolute;
+  top: -$chronology-circle-size/2;
+  left: -$chronology-circle-size/2;
+}
+.chronology-circle-bottom{
+  width:$chronology-circle-size;
+  height:$chronology-circle-size;
+  background-color: $secondary;
+  border: $chronology-circle-size/6 solid $third-color;
+  //border-radius:50%;
+  position: absolute;
+  bottom: -($chronology-circle-size/2);
+  left: -($chronology-circle-size/2);
+}

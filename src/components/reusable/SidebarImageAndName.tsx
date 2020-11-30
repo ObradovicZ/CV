@@ -1,10 +1,11 @@
 import React from'react';
-import {Col, Media, Row} from "react-bootstrap";
+import {Media, Row} from "react-bootstrap";
+import {ImageTextModel} from "../../models/ImageTextModel";
 
-function ImageAndName(props) {
+function SidebarImageAndName(props:ImageTextModel) {
     return (
         <Row className={'ml-0 position-relative mb-2'}>
-            <Media>
+            <Media className={'w-100'}>
                 <img src={props.image} className={'w-100 mx-auto'}/>
             </Media>
             <div className={'w-100 opacity-40 position-absolute sidebar-img-text-container'} style={{bottom:'0',backgroundColor:'black'}}/>
@@ -15,4 +16,4 @@ function ImageAndName(props) {
     );
 }
 
-export default ImageAndName;
+export default SidebarImageAndName;

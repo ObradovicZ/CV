@@ -1,7 +1,8 @@
 import React from'react';
-import {Col, Media, Row} from "react-bootstrap";
+import {Media} from "react-bootstrap";
+import {ImageTextModel} from "../../models/ImageTextModel";
 
-function ExperienceComponent(props) {
+function AboutExperience(props:ImageTextModel) {
     return (
         <div className={'w-25 flex-column justify-content-center'}>
             <p className={'text-center h5'}>{props.text}</p>
@@ -12,4 +13,4 @@ function ExperienceComponent(props) {
     );
 }
 
-export default ExperienceComponent;
+export default AboutExperience;

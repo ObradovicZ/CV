@@ -8,7 +8,8 @@ function ResumeChronologySequence (props:{title:string,subtitle:string,text:stri
             <p>{props.text}</p>
             <div className={'chronology-circle-top'}/>
             <div className={'chronology-circle-bottom'}/>
-            <span className={'chronology-circle-bottom'}>2020</span>
+            <span className={'chronology-text-bottom'}>2018</span>
+            <span className={'chronology-text-top'}>2020</span>
         </div>
     );
 }

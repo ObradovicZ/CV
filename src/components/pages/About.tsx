@@ -1,7 +1,7 @@
 import React from 'react';
 import {Col, Media, Row} from 'react-bootstrap';
-import Placeholder from '../Assets/placeholders/placeholderMe.png';
-import AboutExperience from "./reusable/AboutExperience";
+import Placeholder from '../../Assets/placeholders/placeholderMe.png';
+import AboutExperience from "../reusable/AboutExperience";
 
 function About(props: any) {
     const personalInfo = [
@@ -11,9 +11,11 @@ function About(props: any) {
         {property: 'Email', value: 'test@test.test'}
     ]
     return (
-        <Col>
+        <Col xl={{span: 10}}
+             lg={{span: 9}}
+             sm={{span: 9}}>
             <Row className={'w-100 bg-secondary'}>
-                <Row className={'bg-primary w-75 mx-auto mb-4 mt-5'}>
+                <Row className={'w-75 mx-auto mb-4 mt-5'}>
                     <h1>About Me.</h1>
                 </Row>
                 <Row className={'w-75 mx-auto mb-5'}>
@@ -30,8 +32,8 @@ function About(props: any) {
                     <div className={'max-width-40 ml-auto'}>
                         <h2>Personal information</h2>
                         <div className={'flex-column'}>
-                            {personalInfo.map((data) => (
-                                <p className={'mb-2'}>
+                            {personalInfo.map((data,index) => (
+                                <p className={'mb-2'} key={index}>
                                     <span className={'font-weight-bold'}>{data.property}:</span> {data.value}
                                 </p>
                             ))}

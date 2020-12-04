@@ -1,0 +1,39 @@
+.contact-input{
+  background-color: transparent;
+  width:48%;
+  border: 2px solid $forth-color;
+  color:white;
+  box-shadow: white;
+}
+.contact-input:focus{
+  border: 2px solid white;
+  box-shadow: none;
+  outline:none;
+}
+.contact-textarea{
+  background-color: transparent;
+  border: 2px solid $forth-color;
+  color:white;
+  box-shadow: white;
+}
+.contact-textarea:focus{
+  border: 2px solid white;
+  box-shadow: none;
+  outline:none;
+}
+::placeholder{
+  color:white;
+}
+.contact-button,
+.contact-button:active,
+.contact-button:after,
+.contact-button:focus{
+  padding: 6px;
+  border-color: $forth-color;
+  background-color: transparent;
+  color: $forth-color;
+
+}
+.contact-button:hover{
+  box-shadow: 0 8px 10px 0 $forth-color, 2px 8px 10px 2px $forth-color;
+}

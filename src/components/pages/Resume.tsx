@@ -1,12 +1,12 @@
 import React from 'react';
 import {Col, Row} from "react-bootstrap";
-import ResumeChronologySequence from "./reusable/ResumeChronologySequence";
+import ResumeChronologySequence from "../reusable/ResumeChronologySequence";
 
-class Resume extends React.Component<any, any> {
-
-    render() {
+function Resume (){
         return (
-            <Col>
+            <Col xl={{span: 10}}
+                 lg={{span: 9}}
+                 sm={{span: 9}}>
                 <Row className={'w-100 bg-secondary'}>
                     <Row className={'w-75 mx-auto mb-4 mt-5 justify-content-between'}>
                         <h1>My Resume.</h1>
@@ -59,6 +59,6 @@ class Resume extends React.Component<any, any> {
             </Col>
         )
     }
-}
+
 
 export default Resume;

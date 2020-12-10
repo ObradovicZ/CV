@@ -5,15 +5,16 @@ function Contact(props: any) {
     return (
         <Col xl={{span: 10}}
              lg={{span: 9}}
-             sm={{span: 9}}>
-            <Row className={'w-100 bg-secondary'}>
-                <Row className={'w-75 mx-auto mb-4 mt-5 justify-content-between'}>
+             sm={{span: 9}}
+            className={'bg-secondary'}>
+            <Row className={'w-100'}>
+                <Col xl={{span: 9, offset: 1}} lg={{span: 9, offset: 1}} className={'d-flex mb-4 mt-5 justify-content-between'}>
                     <h1>Contact.</h1>
                     <div style={{backgroundColor: 'black', width: '80px', height: '40px'}}/>
-                </Row>
-                <Row className={'w-75 mx-auto mb-4 mt-5 justify-content-center'}>
+                </Col>
+                <Col xl={{span: 9, offset: 1}} lg={{span: 8, offset: 2}} className={'mb-4 mt-5 justify-content-center'}>
                     <h3 className={'w-100 text-center mb-4'}>Let's talk.</h3>
-                    <div className={'w-75'}>
+                    <div className={'w-100'}>
                         <form>
                             <div className={'d-flex justify-content-between mb-4'}>
                                 <input className='contact-input' placeholder={'Name'} type={'text'}/>
@@ -25,7 +26,7 @@ function Contact(props: any) {
                             </div>
                         </form>
                     </div>
-                </Row>
+                </Col>
             </Row>
         </Col>
 

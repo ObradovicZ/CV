@@ -5,7 +5,6 @@ import SidebarImageAndName from "./reusable/SidebarImageAndName";
 import SidebarLink from "./reusable/SidebarLink";
 
 function Sidebar() {
-    console.log('hi');
     const [path, setPath] = useState('/');
     const paths = ['/', '/about', '/resume', '/examples', '/contact'];
     return (
@@ -13,6 +12,7 @@ function Sidebar() {
              lg={{span: 3}}
              sm={{span: 3}}
              className={'background-third text-white h-100'}>
+            {/*<div className={'sidebar background-third '}/>*/}
             <SidebarImageAndName image={PlaceholderImage} text={'Full Name'}/>
             <div className={'ml-4'}>
                 {paths.map((pathName, index) => {

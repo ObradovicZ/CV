@@ -21,7 +21,7 @@ function Sidebar() {
                         <SidebarLink key={index}
                                      path={pathName}
                                      setPath={setPath}
-                                     activeClass={isActive?'text-white':'color-primary'}/>
+                                     activeClass={isActive?'sidebar-link-active':'sidebar-link'}/>
                     )
                 })}
             </div>

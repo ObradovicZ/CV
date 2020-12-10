@@ -5,3 +5,21 @@
   height: 100vh;
   width:30vw;
 }
+
+.sidebar-link{
+  color:white;
+}
+.sidebar-link:hover{
+  color:white;
+  text-shadow: #ffffff33 2px 2px;
+  text-decoration: none;
+}
+.sidebar-link-active{
+  color:white;
+  text-decoration: underline;
+}
+
+.sidebar-link-active:hover{
+  color:white;
+  text-shadow: #ffffff22 2px 2px;
+}

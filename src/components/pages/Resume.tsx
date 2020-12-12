@@ -1,20 +1,9 @@
 import React from 'react';
 import {Col, Row} from "react-bootstrap";
 import ResumeChronologySequence from "../reusable/ResumeChronologySequence";
-import TriangleAnimation from "../reusable/TriangleAnimation";
-import TitleComponent from "../reusable/TitleComponent";
 
 function Resume() {
     return (
-        <Col xl={{span: 10}}
-             lg={{span: 9}}
-             sm={{span: 9}}
-             className={'bg-secondary'}>
-            <Row className={'w-100'}>
-                <Col xl={{span: 9, offset: 1}} lg={{span: 9, offset: 1}}
-                     className={'mb-4 mt-5'}>
-                    <TitleComponent title={'My Resume'}/>
-                </Col>
                 <Col xl={{span: 9, offset: 1}} lg={{span: 9, offset: 1}}
                      className={'d-flex justify-content-between mb-5'}>
                     <Row className={'flex-column w-50'}>
@@ -59,10 +48,7 @@ function Resume() {
                             'up one of the more obscure Latin words, consectetur'}/>
                     </Row>
                 </Col>
-            </Row>
-        </Col>
     )
 }
-
 
 export default Resume;

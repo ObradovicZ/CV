@@ -12,6 +12,7 @@ import About from "./components/pages/About";
 import Sidebar from "./components/Sidebar";
 import {Row} from 'react-bootstrap';
 import Resume from "./components/pages/Resume";
+import ContentWrapper from "./components/hoc/ContentWrapper";
 
 function App() {
     return (
@@ -21,13 +22,13 @@ function App() {
                     <Sidebar/>
                     <Switch>
                         <Route path="/about">
-                            <About/>
+                            <ContentWrapper title={'About'} content={<About/>}/>
                         </Route>
                         <Route path="/contact">
-                            <Contact/>
+                            <ContentWrapper title={'My Resume'} content={<Contact/>}/>
                         </Route>
                         <Route path="/resume">
-                            <Resume/>
+                            <ContentWrapper title={'My Resume'} content={<Resume/>}/>
                         </Route>
                         <Route path="/">
                             <Home/>

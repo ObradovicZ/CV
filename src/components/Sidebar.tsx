@@ -6,7 +6,7 @@ import SidebarLink from "./reusable/SidebarLink";
 
 function Sidebar() {
     const [path, setPath] = useState('/');
-    const paths = ['/', '/about', '/resume', '/examples', '/contact'];
+    const paths = ['/', '/about', '/resume', '/contact'];
     return (
         <Col xl={{span: 2}}
              lg={{span: 3}}

@@ -1,0 +1,44 @@
+.about-content {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding-left: 0;
+  padding-right: 0;
+  @media (min-width: 576px) {
+    flex-direction: row;
+    align-items: flex-start;
+    justify-content: space-between;
+    padding-left: 15px;
+    padding-right: 15px;
+  }
+}
+
+.about-about {
+  max-width: 100%;
+  @media (min-width: 576px) {
+    max-width: 60%;
+  }
+}
+.about-personal {
+  max-width: 100%;
+  @media (min-width: 576px) {
+    max-width: 40%;
+    margin-left: auto;
+  }
+}
+.about-experience-wrapper{
+  flex-direction: column;
+  align-items: center;
+  @media (min-width: 576px) {
+    flex-direction: row;
+    justify-content:space-between;
+    align-items: flex-start;
+  }
+}
+.about-experience{
+  width:100%;
+
+  @media (min-width: 576px) {
+    width:25%;
+  }
+}

@@ -3,6 +3,7 @@
   align-items: center;
   @media (min-width: 576px) {
     flex-direction: row;
+    align-items: flex-start;
   }
 }
 .resume-experience{
@@ -22,12 +23,12 @@ $chronology-circle-size: 16px;
   background-color: $secondary-color;
   //border-radius:50%;
   position: absolute;
-  top: -$chronology-circle-size/2;
-  left: -$chronology-circle-size/2;
-  //@media (min-width: 576px) {
-  //  top: -$chronology-circle-size/2;
-  //  left: -$chronology-circle-size/2;
-  //}
+  display:none;
+  @media (min-width: 576px) {
+    display:block;
+    top: -$chronology-circle-size/2;
+    left: -$chronology-circle-size/2;
+  }
 }
 .chronology-circle-bottom{
   width:$chronology-circle-size;
@@ -36,22 +37,34 @@ $chronology-circle-size: 16px;
   border: $chronology-circle-size/6 solid $third-color;
   //border-radius:50%;
   position: absolute;
-  bottom: -($chronology-circle-size/2);
-  left: -($chronology-circle-size/2);
+  display:none;
+  @media (min-width: 576px) {
+    display:block;
+    bottom: -($chronology-circle-size/2);
+    left: -($chronology-circle-size/2);
+  }
 }
 .chronology-text-bottom{
   color: $third-color;
   line-height: 1;
   position: absolute;
-  bottom: -($chronology-circle-size/2);
-  left: -(3*$chronology-circle-size);
+  left: -($chronology-circle-size);
+  bottom: -($chronology-circle-size);
   font-weight: bold;
+  @media (min-width: 576px) {
+    left: -(3*$chronology-circle-size);
+    bottom: -($chronology-circle-size/2);
+  }
 }
 .chronology-text-top{
   color: $third-color;
   line-height: 1;
   position: absolute;
-  top: -($chronology-circle-size/2);
-  left: -(3*$chronology-circle-size);
+  top: -($chronology-circle-size);
+  left: -($chronology-circle-size);
   font-weight: bold;
+  @media (min-width: 576px) {
+    top: -($chronology-circle-size/2);
+    left: -(3*$chronology-circle-size);
+  }
 }

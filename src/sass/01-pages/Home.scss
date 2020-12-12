@@ -1,3 +1,9 @@
+.home-role-text{
+  font-weight: bold;
+  text-decoration: underline;
+  text-decoration-color: $third-color;
+}
+
 .typewriter p {
   overflow: hidden;
   border-right: .15em solid transparent;
@@ -15,6 +21,6 @@
 }
 
 @keyframes blink-caret {
-  from, to { border-color: orange }
+  from, to { border-color: $third-color}
   50% { border-color: transparent; }
 }

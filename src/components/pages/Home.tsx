@@ -10,7 +10,7 @@ function Home(props: any) {
             <Row className={'w-100 h-100'}>
                 <div className={'d-flex flex-column mx-auto my-auto typewriter'}>
                     <h1 className={''}>Name <span className={'color-third'}>Surname</span></h1>
-                    <p className={'text-frontend-dev'}>I am a Software Developer</p>
+                    <p className={'text-frontend-dev'}>I am a <span className='home-role-text'>Software Developer</span></p>
                 </div>
             </Row>
         </Col>

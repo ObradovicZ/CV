@@ -11,7 +11,7 @@ function Sidebar() {
         <Col xl={{span: 2}}
              lg={{span: 3}}
              sm={{span: 3}}
-             className={'background-third text-white h-100'}>
+             className={'background-primary text-white h-100'}>
             {/*<div className={'sidebar background-third '}/>*/}
             <SidebarImageAndName image={PlaceholderImage} text={'Full Name'}/>
             <Row className={'ml-0'}>

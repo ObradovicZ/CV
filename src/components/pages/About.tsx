@@ -37,9 +37,9 @@ function About(props: any) {
             <Col xl={{span: 9, offset: 1}} lg={{span: 9, offset: 1}} className={'mb-4'}>
                 <h2 className={'w-100 text-center mb-4'}>Experienced in: </h2>
                 <Row className={'justify-content-between'}>
+                    <AboutExperience text={'Frontend development'} image={Placeholder}/>
                     <AboutExperience text={'Software development'} image={Placeholder}/>
                     <AboutExperience text={'Game development'} image={Placeholder}/>
-                    <AboutExperience text={'Frontend development'} image={Placeholder}/>
                 </Row>
             </Col>
         </div>

@@ -1,6 +1,6 @@
 import {Col, Row} from "react-bootstrap";
-import TitleComponent from "../reusable/TitleComponent";
 import React from "react";
+import TriangleAnimation from "../reusable/TriangleAnimation";
 
 function ContentWrapper(props: any) {
     return (
@@ -10,7 +10,10 @@ function ContentWrapper(props: any) {
              className={'bg-secondary'}>
             <Row className={'w-100'}>
                 <Col xl={{span: 9, offset: 1}} lg={{span: 9, offset: 1}} className={'mb-4 mt-5'}>
-                    <TitleComponent title={props.title}/>
+                    <Row className={'justify-content-between'}>
+                        <h1>{props.title}</h1>
+                        <TriangleAnimation/>
+                    </Row>
                 </Col>
                 {props.content}
             </Row>

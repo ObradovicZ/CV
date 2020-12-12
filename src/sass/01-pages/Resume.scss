@@ -51,9 +51,11 @@ $chronology-circle-size: 16px;
   left: -($chronology-circle-size);
   bottom: -($chronology-circle-size);
   font-weight: bold;
+  border-bottom:1px solid $third-color;
   @media (min-width: 576px) {
     left: -(3*$chronology-circle-size);
     bottom: -($chronology-circle-size/2);
+    border:none;
   }
 }
 .chronology-text-top{
@@ -63,8 +65,10 @@ $chronology-circle-size: 16px;
   top: -($chronology-circle-size);
   left: -($chronology-circle-size);
   font-weight: bold;
+  border-bottom:1px solid $third-color;
   @media (min-width: 576px) {
     top: -($chronology-circle-size/2);
     left: -(3*$chronology-circle-size);
+    border:none;
   }
 }

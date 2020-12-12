@@ -12,7 +12,11 @@ function About(props: any) {
     ]
     return (
         <div className={'w-100'}>
-            <Col xl={{span: 9, offset: 1}} lg={{span: 9, offset: 1}} className={'d-flex mb-5'}>
+            <Col xl={{span: 10, offset: 1}}
+                 lg={{span: 10, offset: 1}}
+                 md={{span: 11, offset: 1}}
+                 sm={{span: 12, offset: 0}}
+                 className={'d-flex mb-5'}>
                 <Row className={'flex-column max-width-60'}>
                     <h2>Software developer</h2>
                     <p>Contrary to popular belief, Lorem Ipsum is not simply random text. It has roots in a piece of
@@ -34,7 +38,11 @@ function About(props: any) {
                     </div>
                 </Row>
             </Col>
-            <Col xl={{span: 9, offset: 1}} lg={{span: 9, offset: 1}} className={'mb-4'}>
+            <Col xl={{span: 10, offset: 1}}
+                 lg={{span: 10, offset: 1}}
+                 md={{span: 11, offset: 1}}
+                 sm={{span: 12, offset: 0}}
+                 className={'mb-4'}>
                 <h2 className={'w-100 text-center mb-4'}>Experienced in: </h2>
                 <Row className={'justify-content-between'}>
                     <AboutExperience text={'Frontend development'} image={Placeholder}/>

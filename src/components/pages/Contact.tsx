@@ -3,7 +3,11 @@ import {Col} from 'react-bootstrap';
 
 function Contact(props: any) {
     return (
-        <Col xl={{span: 9, offset: 1}} lg={{span: 8, offset: 2}} className={'mb-4 mt-5 justify-content-center'}>
+        <Col xl={{span: 10, offset: 1}}
+             lg={{span: 10, offset: 1}}
+             md={{span: 11, offset: 1}}
+             sm={{span: 12, offset: 0}}
+             className={'mb-4 mt-5 justify-content-center'}>
             <h3 className={'w-100 text-center mb-4'}>Let's talk.</h3>
             <div className={'w-100'}>
                 <form>

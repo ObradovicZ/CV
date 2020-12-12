@@ -4,7 +4,10 @@ import ResumeChronologySequence from "../reusable/ResumeChronologySequence";
 
 function Resume() {
     return (
-                <Col xl={{span: 9, offset: 1}} lg={{span: 9, offset: 1}}
+                <Col xl={{span: 9, offset: 1}}
+                     lg={{span: 9, offset: 1}}
+                     md={{span: 11, offset: 1}}
+                     sm={{span: 12, offset: 0}}
                      className={'d-flex justify-content-between mb-5'}>
                     <Row className={'flex-column w-50'}>
                         <p className={'h2 pl-5'}>Experience</p>

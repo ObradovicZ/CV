@@ -10,8 +10,9 @@ function Sidebar() {
     return (
         <Col xl={{span: 2}}
              lg={{span: 3}}
-             sm={{span: 3}}
-             className={'background-primary text-white h-100'}>
+             md={{span: 3}}
+             sm={{span: 12}}
+             className={'background-primary text-white pl-0'}>
             {/*<div className={'sidebar background-third '}/>*/}
             <SidebarImageAndName image={PlaceholderImage} text={'Full Name'}/>
             <Row className={'ml-0'}>

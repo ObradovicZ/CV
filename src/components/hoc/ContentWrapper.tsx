@@ -4,12 +4,18 @@ import TriangleAnimation from "../reusable/TriangleAnimation";
 
 function ContentWrapper(props: any) {
     return (
-        <Col xl={{span: 10}}
-             lg={{span: 9}}
-             sm={{span: 9}}
-             className={'background-secondary'}>
+        <Col xl={{span: 10, offset: 0}}
+             lg={{span: 9, offset: 0}}
+             md={{span: 9, offset: 0}}
+             sm={{span: 10, offset: 1}}
+             xs={{span: 10, offset: 1}}
+             className={'background-secondary text-white'}>
             <Row className={'w-100'}>
-                <Col xl={{span: 9, offset: 1}} lg={{span: 9, offset: 1}} className={'mb-4 mt-5'}>
+                <Col xl={{span: 9, offset: 1}}
+                     lg={{span: 9, offset: 1}}
+                     md={{span: 11, offset: 1}}
+                     sm={{span: 12, offset: 0}}
+                     className={'mb-4 mt-5'}>
                     <Row className={'justify-content-between'}>
                         <h1 className={'color-third'}>{props.title}</h1>
                         <TriangleAnimation/>

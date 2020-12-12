@@ -6,7 +6,7 @@ function Home(props: any) {
         <Col xl={{span: 10}}
              lg={{span: 9}}
              sm={{span: 9}}
-             className={'background-secondary'}>
+             className={'background-secondary text-white'}>
             <Row className={'w-100 h-100'}>
                 <div className={'d-flex flex-column mx-auto my-auto typewriter'}>
                     <h1 className={''}>Name <span className={'color-third'}>Surname</span></h1>

@@ -7,11 +7,11 @@
 }
 
 .sidebar-link{
-  color: $forth-color;
+  color: white;
   transition: 0.4s;
 }
 .sidebar-link:hover{
-  color:$forth-color;
+  color:white;
   //background-color: #965d62;
   transform: translateX(20px);
   transform: translateY(-6px);
@@ -20,5 +20,8 @@
   font-weight: bold;
 }
 .sidebar-link-active,.sidebar-link-active:hover{
-  color:white;
+  color: $third-color;
+}
+.sidebar-link-active p{
+  color:inherit;
 }

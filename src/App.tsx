@@ -1,4 +1,3 @@
-import './App.css';
 import './sass/App.scss'
 import React from 'react';
 import {
@@ -18,7 +17,7 @@ function App() {
     return (
         <div className="app">
             <Router>
-                <Row className={'h-100'}>
+                <Row className={'h-100 w-100 mx-0'}>
                     <Sidebar/>
                     <Switch>
                         <Route path="/about">

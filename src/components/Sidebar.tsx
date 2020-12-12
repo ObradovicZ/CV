@@ -1,5 +1,5 @@
 import React, {useState} from 'react';
-import {Col} from 'react-bootstrap';
+import {Col, Row} from 'react-bootstrap';
 import PlaceholderImage from '../Assets/placeholders/placeholderMe.png'
 import SidebarImageAndName from "./reusable/SidebarImageAndName";
 import SidebarLink from "./reusable/SidebarLink";
@@ -14,7 +14,7 @@ function Sidebar() {
              className={'background-third text-white h-100'}>
             {/*<div className={'sidebar background-third '}/>*/}
             <SidebarImageAndName image={PlaceholderImage} text={'Full Name'}/>
-            <div className={'ml-4'}>
+            <Row className={'ml-0'}>
                 {paths.map((pathName, index) => {
                     const isActive = pathName === path;
                     return (
@@ -24,7 +24,7 @@ function Sidebar() {
                                      activeClass={isActive?'sidebar-link-active':'sidebar-link'}/>
                     )
                 })}
-            </div>
+            </Row>
         </Col>
     )
 }

@@ -4,7 +4,7 @@ import {ImageTextModel} from "../../models/ImageTextModel";
 
 function SidebarImageAndName(props:ImageTextModel) {
     return (
-        <Row className={'ml-0 position-relative mb-2'}>
+        <Row className={'ml-0 position-relative'}>
             <Media className={'w-100'}>
                 <img src={props.image} className={'w-100 mx-auto'}/>
             </Media>

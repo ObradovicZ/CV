@@ -7,11 +7,11 @@ function ContentWrapper(props: any) {
         <Col xl={{span: 10}}
              lg={{span: 9}}
              sm={{span: 9}}
-             className={'bg-secondary'}>
+             className={'background-secondary'}>
             <Row className={'w-100'}>
                 <Col xl={{span: 9, offset: 1}} lg={{span: 9, offset: 1}} className={'mb-4 mt-5'}>
                     <Row className={'justify-content-between'}>
-                        <h1>{props.title}</h1>
+                        <h1 className={'color-third'}>{props.title}</h1>
                         <TriangleAnimation/>
                     </Row>
                 </Col>

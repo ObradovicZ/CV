@@ -7,12 +7,13 @@
 * {
   -ms-overflow-style: none;  /* IE and Edge */
   scrollbar-width: none;  /* Firefox */
+  color:white;
 }
 //Colors
-$primary-color: #6c6d71;
-$secondary-color: #b2bac9;
-$third-color: #eaeaec;
-$forth-color: #04b3d5;
+$primary-color: #17181B;
+$secondary-color: #2C2D2F;
+$third-color: #00A3E1;
+$forth-color: #777768;
 //Backgrounds
 .background-primary{
   background-color: $primary-color;

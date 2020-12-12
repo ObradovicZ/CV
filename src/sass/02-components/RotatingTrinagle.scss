@@ -4,8 +4,8 @@ $margin-bottom : $wrapper-size*74.29/100;
 $margin-x : $wrapper-size*42.86/100;
 .triangle-wrapper{
   position: relative;
-  background-color: #f2d974;
-  border:1px solid $third-color;
+  background-color: $primary-color;
+  border:1px solid $forth-color;
   border-radius: 50%;
   width:$wrapper-size;
   height:$wrapper-size;

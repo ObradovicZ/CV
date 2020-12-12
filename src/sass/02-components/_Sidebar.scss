@@ -7,11 +7,11 @@
 }
 
 .sidebar-link{
-  color: bisque;
+  color: $forth-color;
   transition: 0.4s;
 }
 .sidebar-link:hover{
-  color:bisque;
+  color:$forth-color;
   //background-color: #965d62;
   transform: translateX(20px);
   transform: translateY(-6px);

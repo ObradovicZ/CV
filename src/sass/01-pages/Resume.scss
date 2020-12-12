@@ -1,3 +1,16 @@
+.resume-content{
+  flex-direction: column;
+  align-items: center;
+  @media (min-width: 576px) {
+    flex-direction: row;
+  }
+}
+.resume-experience{
+  width:100%;
+  @media (min-width: 576px) {
+    width:50%;
+  }
+}
 .chronology-container{
   border-left:1px solid $third-color;
 }
@@ -11,6 +24,10 @@ $chronology-circle-size: 16px;
   position: absolute;
   top: -$chronology-circle-size/2;
   left: -$chronology-circle-size/2;
+  //@media (min-width: 576px) {
+  //  top: -$chronology-circle-size/2;
+  //  left: -$chronology-circle-size/2;
+  //}
 }
 .chronology-circle-bottom{
   width:$chronology-circle-size;

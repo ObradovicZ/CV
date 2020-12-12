@@ -4,12 +4,12 @@ import ResumeChronologySequence from "../reusable/ResumeChronologySequence";
 
 function Resume() {
     return (
-                <Col xl={{span: 9, offset: 1}}
-                     lg={{span: 9, offset: 1}}
+                <Col xl={{span: 10, offset: 1}}
+                     lg={{span: 10, offset: 1}}
                      md={{span: 11, offset: 1}}
                      sm={{span: 12, offset: 0}}
-                     className={'d-flex justify-content-between mb-5'}>
-                    <Row className={'flex-column w-50'}>
+                     className={'d-flex resume-content justify-content-between mb-5'}>
+                    <Row className={'flex-column resume-experience'}>
                         <p className={'h2 pl-5'}>Experience</p>
                         <ResumeChronologySequence
                             title={'Web developer'}
@@ -26,7 +26,7 @@ function Resume() {
                             'Richard McClintock, a Latin professor at Hampden-Sydney College in Virginia, looked\n' +
                             'up one of the more obscure Latin words, consectetur'}/>
                     </Row>
-                    <Row className={'flex-column w-50'}>
+                    <Row className={'flex-column resume-experience'}>
                         <p className={'h2 pl-5'}>Education</p>
                         <ResumeChronologySequence
                             title={'Web developer'}

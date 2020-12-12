@@ -12,6 +12,7 @@ function Sidebar() {
              lg={{span: 3}}
              md={{span: 3}}
              sm={{span: 12}}
+             xs={{span: 12}}
              className={'background-primary text-white pl-0'}>
             {/*<div className={'sidebar background-third '}/>*/}
             <SidebarImageAndName image={PlaceholderImage} text={'Full Name'}/>

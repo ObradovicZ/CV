@@ -1,6 +1,8 @@
 import React from 'react';
 import {Col, Row} from "react-bootstrap";
 import ResumeChronologySequence from "../reusable/ResumeChronologySequence";
+import TriangleAnimation from "../reusable/TriangleAnimation";
+import TitleComponent from "../reusable/TitleComponent";
 
 function Resume() {
     return (
@@ -11,12 +13,7 @@ function Resume() {
             <Row className={'w-100'}>
                 <Col xl={{span: 9, offset: 1}} lg={{span: 9, offset: 1}}
                      className={'mb-4 mt-5'}>
-                    <Row className={'justify-content-between'}>
-                        <h1>My Resume.</h1>
-                        <div className='triangle-wrapper'>
-                            <div className='rotating-div'/>
-                        </div>
-                    </Row>
+                    <TitleComponent title={'My Resume'}/>
                 </Col>
                 <Col xl={{span: 9, offset: 1}} lg={{span: 9, offset: 1}}
                      className={'d-flex justify-content-between mb-5'}>

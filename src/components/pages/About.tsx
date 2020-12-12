@@ -2,6 +2,7 @@ import React from 'react';
 import {Col, Row} from 'react-bootstrap';
 import Placeholder from '../../Assets/placeholders/placeholderMe.png';
 import AboutExperience from "../reusable/AboutExperience";
+import TitleComponent from "../reusable/TitleComponent";
 
 function About(props: any) {
     const personalInfo = [
@@ -17,9 +18,7 @@ function About(props: any) {
             className={'bg-secondary'}>
             <Row className={'w-100'}>
                 <Col xl={{span:9,offset:1}} lg={{span:9,offset:1}} className={'mb-4 mt-5'}>
-                    <Row>
-                        <h1>About Me.</h1>
-                    </Row>
+                    <TitleComponent title={'About Me'}/>
                 </Col>
                 <Col xl={{span:9,offset:1}} lg={{span:9,offset:1}} className={'d-flex mb-5'}>
                     <Row className={'flex-column max-width-60'}>

@@ -1,5 +1,6 @@
 import React from 'react';
 import {Col, Row} from 'react-bootstrap';
+import TitleComponent from "../reusable/TitleComponent";
 
 function Contact(props: any) {
     return (
@@ -8,9 +9,8 @@ function Contact(props: any) {
              sm={{span: 9}}
             className={'bg-secondary'}>
             <Row className={'w-100'}>
-                <Col xl={{span: 9, offset: 1}} lg={{span: 9, offset: 1}} className={'d-flex mb-4 mt-5 justify-content-between'}>
-                    <h1>Contact.</h1>
-                    <div style={{backgroundColor: 'black', width: '80px', height: '40px'}}/>
+                <Col xl={{span: 9, offset: 1}} lg={{span: 9, offset: 1}} className={'mb-4 mt-5'}>
+                    <TitleComponent title={'Contact'}/>
                 </Col>
                 <Col xl={{span: 9, offset: 1}} lg={{span: 8, offset: 2}} className={'mb-4 mt-5 justify-content-center'}>
                     <h3 className={'w-100 text-center mb-4'}>Let's talk.</h3>

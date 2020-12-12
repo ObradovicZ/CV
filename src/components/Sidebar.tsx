@@ -21,7 +21,7 @@ function Sidebar() {
                         <SidebarLink key={index}
                                      path={pathName}
                                      setPath={setPath}
-                                     activeClass={isActive?'sidebar-link-active':'sidebar-link'}/>
+                                     activeClass={isActive?'sidebar-link-active':''}/>
                     )
                 })}
             </Row>

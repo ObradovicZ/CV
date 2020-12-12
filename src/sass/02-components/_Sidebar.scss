@@ -7,24 +7,18 @@
 }
 
 .sidebar-link{
-  color:white;
-  //background-color: $secondary;
+  color: bisque;
+  transition: 0.4s;
 }
 .sidebar-link:hover{
-  color:white;
-  background-color: #965d62;
-
+  color:bisque;
+  //background-color: #965d62;
+  transform: translateX(20px);
+  transform: translateY(-6px);
+  text-decoration:none;
+  font-size:1.2rem;
+  font-weight: bold;
 }
-.sidebar-link-active{
+.sidebar-link-active,.sidebar-link-active:hover{
   color:white;
-
-
-}
-.sidebar-link-active:hover{
-  color:white;
-  background-color: #965d62;
-}
-.sidebar-link-active .sidebar-link-p::before{
-  content: '->';
-
 }

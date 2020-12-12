@@ -12,11 +12,14 @@ function Resume() {
                 <Col xl={{span: 9, offset: 1}} lg={{span: 9, offset: 1}}
                      className={'mb-4 mt-5'}>
                     <Row className={'justify-content-between'}>
-                        <h1 >My Resume.</h1>
-                        <div style={{backgroundColor: 'black', width: '80px', height: '40px'}}/>
+                        <h1>My Resume.</h1>
+                        <div className='triangle-wrapper'>
+                            <div className='rotating-div'/>
+                        </div>
                     </Row>
                 </Col>
-                <Col xl={{span: 9, offset: 1}} lg={{span: 9, offset: 1}} className={'d-flex justify-content-between mb-5'}>
+                <Col xl={{span: 9, offset: 1}} lg={{span: 9, offset: 1}}
+                     className={'d-flex justify-content-between mb-5'}>
                     <Row className={'flex-column w-50'}>
                         <p className={'h2 pl-5'}>Experience</p>
                         <ResumeChronologySequence

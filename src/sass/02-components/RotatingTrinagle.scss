@@ -1,0 +1,30 @@
+//Rotating triangle
+$wrapper-size:52px;
+$margin-bottom : $wrapper-size*74.29/100;
+$margin-x : $wrapper-size*42.86/100;
+.triangle-wrapper{
+  position: relative;
+  background-color: #f2d974;
+  border:1px solid $third-color;
+  border-radius: 50%;
+  width:$wrapper-size;
+  height:$wrapper-size;
+}
+
+.rotating-div{
+  position:absolute;
+  top:-1px;
+  left:3px;
+  width:0px;
+  height:0px;
+  border-left: $margin-x solid transparent;
+  border-right: $margin-x solid transparent;
+  border-bottom: $margin-bottom solid $third-color;
+  transform-origin: 50% 66.66%;
+  animation: rotation 2s linear infinite;
+}
+
+@keyframes rotation {
+  0% {transform: rotate(0deg)}
+  100% {transform: rotate(360deg)}
+}

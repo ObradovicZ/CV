@@ -2,6 +2,9 @@ import React from 'react';
 import {Col, Row} from 'react-bootstrap';
 import Placeholder from '../../Assets/placeholders/placeholderMe.png';
 import AboutExperience from "../reusable/AboutExperience";
+import FrontEndLogo from '../../Assets/frontEnd-logos.png';
+import GameDevLogo from '../../Assets/gameDev-logos.png';
+import SoftwareDevLogo from '../../Assets/softwareDev-logos.png';
 
 function About(props: any) {
     const personalInfo = [
@@ -44,9 +47,9 @@ function About(props: any) {
                  className={'mb-4'}>
                 <h2 className={'w-100 text-center mb-4'}>Experienced in: </h2>
                 <Row className={'about-experience-wrapper'}>
-                    <AboutExperience text={'Frontend development'} image={Placeholder}/>
-                    <AboutExperience text={'Software development'} image={Placeholder}/>
-                    <AboutExperience text={'Game development'} image={Placeholder}/>
+                    <AboutExperience text={'Frontend development'} image={FrontEndLogo}/>
+                    <AboutExperience text={'Game development'} image={GameDevLogo}/>
+                    <AboutExperience text={'Software development'} image={SoftwareDevLogo}/>
                 </Row>
             </Col>
         </div>

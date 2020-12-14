@@ -21,7 +21,7 @@ $margin-x : $wrapper-size*42.86/100;
   border-right: $margin-x solid transparent;
   border-bottom: $margin-bottom solid $third-color;
   transform-origin: 50% 66.66%;
-  animation: rotation 3s linear infinite;
+  animation: rotation 2.5s linear infinite;
 }
 
 @keyframes rotation {

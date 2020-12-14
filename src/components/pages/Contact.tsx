@@ -7,11 +7,11 @@ function Contact(props: any) {
              lg={{span: 10, offset: 1}}
              md={{span: 11, offset: 1}}
              sm={{span: 12, offset: 0}}
-             className={'mb-4 mt-5 justify-content-center'}>
-            <h3 className={'w-100 text-center mb-4'}>Let's talk.</h3>
+             className={'mb-5 justify-content-center'}>
+            <h3 className={'w-100 text-center mb-5'}>Let's talk.</h3>
             <div className={'w-100'}>
                 <form>
-                    <div className={'d-flex justify-content-between mb-4'}>
+                    <div className={'d-flex justify-content-between mb-5'}>
                         <input className='contact-input' placeholder={'Name'} type={'text'}/>
                         <input className='contact-input' placeholder={'Email'} type={'text'}/>
                     </div>

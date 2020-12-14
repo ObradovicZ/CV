@@ -7,7 +7,7 @@ function AboutExperience(props:ImageTextModel) {
         <div className={'about-experience flex-column justify-content-center'}>
             <p className={'text-center h5'}>{props.text}</p>
             <Media>
-                <img src={props.image} className={'w-100'}/>
+                <img src={props.image} className={'w-100 image-background'}/>
             </Media>
         </div>
     );

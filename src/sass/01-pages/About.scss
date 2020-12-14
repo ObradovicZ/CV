@@ -29,6 +29,7 @@
 .about-experience-wrapper{
   flex-direction: column;
   align-items: center;
+  box-shadow: 0 4px 4px -4px #ffffff77;
   @media (min-width: 576px) {
     flex-direction: row;
     justify-content:space-between;
@@ -41,4 +42,9 @@
   @media (min-width: 576px) {
     width:25%;
   }
+}
+.image-background{
+  background-color: $primary-color;
+  border-radius:4px;
+  max-height: 150px;
 }

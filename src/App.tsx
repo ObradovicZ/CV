@@ -1,7 +1,6 @@
 import './sass/App.scss'
 import React from 'react';
 import {
-    HashRouter,
     BrowserRouter as Router,
     Switch,
     Route,
@@ -17,7 +16,7 @@ import ContentWrapper from "./components/hoc/ContentWrapper";
 function App() {
     return (
         <div className="app">
-            <HashRouter basename={'/'}>
+            <Router>
                 <Row className={'h-100 w-100 mx-0'}>
                     <Sidebar/>
                     <Switch>
@@ -35,7 +34,7 @@ function App() {
                         </Route>
                     </Switch>
                 </Row>
-            </HashRouter>
+            </Router>
         </div>
     );
 }

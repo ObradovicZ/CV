@@ -12,43 +12,39 @@ function Resume() {
                     <Row className={'flex-column resume-experience'}>
                         <p className={'h2 pl-5'}>Experience</p>
                         <ResumeChronologySequence
-                            title={'Web developer'}
-                            subtitle={'Company'}
-                            text={'ontrary to popular belief, Lorem Ipsum is not simply random text. It has roots in a\n' +
-                            'piece of classical Latin literature from 45 BC, making it over 2000 years old.\n' +
-                            'Richard McClintock, a Latin professor at Hampden-Sydney College in Virginia, looked\n' +
-                            'up one of the more obscure Latin words, consectetur'}/>
+                            startYear={2020}
+                            endYear={2020}
+                            title={'Front-end developer'}
+                            subtitle={'Softerrific | July 2020 - Present'}
+                            text={'Implementing rich user experience sites and developing new features with focus' +
+                            ' on reusable and stable structure.'}/>
                         <ResumeChronologySequence
-                            title={'Web developer'}
-                            subtitle={'Company'}
-                            text={'ontrary to popular belief, Lorem Ipsum is not simply random text. It has roots in a\n' +
-                            'piece of classical Latin literature from 45 BC, making it over 2000 years old.\n' +
-                            'Richard McClintock, a Latin professor at Hampden-Sydney College in Virginia, looked\n' +
-                            'up one of the more obscure Latin words, consectetur'}/>
+                            startYear={2020}
+                            endYear={2020}
+                            title={'Unity/C# developer'}
+                            subtitle={'Softerrific | January 2020 - July 2020'}
+                            text={'Migrating existing game to Unity(C#). Working on SQLite - C# extensions for Game Maker Studi.'}/>
+                        <ResumeChronologySequence
+                            startYear={2018}
+                            endYear={2020}
+                            title={'Game developer'}
+                            subtitle={'Softerrific | October 2018 - January 2020'}
+                            text={'Implementing real-time multiplayer experience. Working on 2D game and its new features in Game Maker Studio. '}/>
                     </Row>
                     <Row className={'flex-column resume-experience'}>
                         <p className={'h2 pl-5'}>Education</p>
                         <ResumeChronologySequence
-                            title={'Web developer'}
-                            subtitle={'Company'}
-                            text={'ontrary to popular belief, Lorem Ipsum is not simply random text. It has roots in a\n' +
-                            'piece of classical Latin literature from 45 BC, making it over 2000 years old.\n' +
-                            'Richard McClintock, a Latin professor at Hampden-Sydney College in Virginia, looked\n' +
-                            'up one of the more obscure Latin words, consectetur'}/>
+                            startYear={2016}
+                            endYear={2020}
+                            title={'Bachelor with Honours in Management Engineering'}
+                            subtitle={'University “UNION - Nikola Tesla”'}
+                            text={'Build and enhanced my knowledge about management and lifecycle of software products delivery.'}/>
                         <ResumeChronologySequence
-                            title={'Web developer'}
-                            subtitle={'Company'}
-                            text={'ontrary to popular belief, Lorem Ipsum is not simply random text. It has roots in a\n' +
-                            'piece of classical Latin literature from 45 BC, making it over 2000 years old.\n' +
-                            'Richard McClintock, a Latin professor at Hampden-Sydney College in Virginia, looked\n' +
-                            'up one of the more obscure Latin words, consectetur'}/>
-                        <ResumeChronologySequence
-                            title={'Web developer'}
-                            subtitle={'Company'}
-                            text={'ontrary to popular belief, Lorem Ipsum is not simply random text. It has roots in a\n' +
-                            'piece of classical Latin literature from 45 BC, making it over 2000 years old.\n' +
-                            'Richard McClintock, a Latin professor at Hampden-Sydney College in Virginia, looked\n' +
-                            'up one of the more obscure Latin words, consectetur'}/>
+                            startYear={2016}
+                            endYear={2017}
+                            title={'Certified Java Developer'}
+                            subtitle={'ITAcademy, Belgrade'}
+                            text={'Forged and sharpen my programming skills.'}/>
                     </Row>
                 </Col>
     )

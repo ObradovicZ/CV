@@ -1,12 +1,10 @@
 import React, {useState} from 'react';
 import {Col, Row} from 'react-bootstrap';
-import PlaceholderImage from '../Assets/placeholders/placeholderMe.png'
 import SidebarImageAndName from "./reusable/SidebarImageAndName";
 import SidebarLink from "./reusable/SidebarLink";
-
 function Sidebar() {
     const [path, setPath] = useState('/');
-    const paths = ['/', '/about', '/resume', '/contact'];
+    const paths = ['/', '/about', '/resume'];
     return (
         <Col xl={{span: 2}}
              lg={{span: 3}}
@@ -14,8 +12,7 @@ function Sidebar() {
              sm={{span: 12}}
              xs={{span: 12}}
              className={'background-primary text-white pl-0'}>
-            {/*<div className={'sidebar background-third '}/>*/}
-            <SidebarImageAndName image={PlaceholderImage} text={'Full Name'} altText={'Image of me'}/>
+            <SidebarImageAndName text={''} altText={'Image of me'}/>
             <Row className={'ml-0'}>
                 {paths.map((pathName, index) => {
                     const isActive = pathName === path;

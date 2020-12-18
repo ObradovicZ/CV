@@ -5,5 +5,25 @@
  bottom:0;
 }
 .sidebar-img-text-container{
- height:3rem;
+ height:2rem;
+}
+$avatar-size:120px;
+.circle-wrapper{
+ background: radial-gradient(circle, rgba(0,163,225,1) 0%, rgba(4,50,68,1) 100%);
+}
+.circle {
+ background: linear-gradient(-25deg, rgba(0,0,0,1) 0%, rgba(96,98,102,1) 100%);
+ border-radius: 0%;
+ height: $avatar-size;
+ text-align: center;
+ width: $avatar-size;
+
+}
+.initials {
+ color:white;
+ font-size: $avatar-size / 2;
+ line-height: 1;
+ position: relative;
+ top: $avatar-size / 4;
+ text-shadow: 3px 3px #17181B;
 }

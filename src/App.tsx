@@ -27,7 +27,7 @@ function App() {
                             <ContentWrapper title={'My Resume'} content={<Contact/>}/>
                         </Route>
                         <Route path="/resume">
-                            <ContentWrapper title={'Contact'} content={<Resume/>}/>
+                            <ContentWrapper title={'Resume'} content={<Resume/>}/>
                         </Route>
                         <Route path="/">
                             <Home/>

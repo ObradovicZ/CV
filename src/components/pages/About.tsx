@@ -1,6 +1,5 @@
 import React from 'react';
 import {Col, Row} from 'react-bootstrap';
-import Placeholder from '../../Assets/placeholders/placeholderMe.png';
 import AboutExperience from "../reusable/AboutExperience";
 import FrontEndLogo from '../../Assets/frontEnd-logos.png';
 import GameDevLogo from '../../Assets/gameDev-logos.png';
@@ -8,10 +7,10 @@ import SoftwareDevLogo from '../../Assets/softwareDev-logos.png';
 
 function About(props: any) {
     const personalInfo = [
-        {property: 'Name', value: 'Full Name'},
+        {property: 'Name', value: 'Zoran Obradovic'},
         {property: 'Age', value: '25'},
-        {property: 'Residence', value: 'New York'},
-        {property: 'Email', value: 'test@test.test'}
+        {property: 'Residence', value: 'Novi Sad, Serbia'},
+        // {property: 'Email', value: 'test@test.test'}
     ]
     return (
         <div className={'w-100'}>
@@ -21,14 +20,13 @@ function About(props: any) {
                  sm={{span: 12, offset: 0}}
                  className={'about-content mb-5'}>
                 <Row className={'flex-column about-about'}>
-                    <h2>Software developer</h2>
-                    <p className={'text-justify'}>Contrary to popular belief, Lorem Ipsum is not simply random text. It has roots in a piece of
-                        classical Latin literature from 45 BC, making it over 2000 years old. </p>
-                    <p className={'text-justify'}>Richard McClintock, a
-                        Latin professor at Hampden-Sydney College in Virginia, looked up one of the more obscure
-                        Latin words, consectetur, from a Lorem Ipsum passage, and going through the cites of the
-                        word in classical literature, discovered the undoubtable source. Lorem Ipsum comes from
-                        sections 1.10.32 and 1.10.33 of "de Finibus Bonorum</p>
+                    <h2>Front-end developer</h2>
+                    <p className={'text-justify'}>Fast. Optimized. Reusable. Precise.</p>
+                    <p className={'text-justify'}>Hello! My name is Zoran and I enjoy developing sites, games and software generally.
+                    My experience can be divided into three main categories: Front-end development, Game development and Software development.
+                    </p>
+                    <p className={'text-justify'}>After experiencing different kinds of software development I found myself in Front-end development. Favourite weapon in project building
+                        for me is React , which together with Typescript allow me writing fast, rich, stable and reusable code.</p>
                 </Row>
                 <Row className={'about-personal'}>
                     <h2>Personal information</h2>

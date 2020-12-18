@@ -23,7 +23,7 @@ function Resume() {
                             endYear={2020}
                             title={'Unity/C# developer'}
                             subtitle={'Softerrific | January 2020 - July 2020'}
-                            text={'Migrating existing game to Unity(C#). Working on SQLite - C# extensions for Game Maker Studi.'}/>
+                            text={'Migrating existing game to Unity(C#). Working on SQLite - C# extensions for Game Maker Studio.'}/>
                         <ResumeChronologySequence
                             startYear={2018}
                             endYear={2020}

@@ -26,7 +26,7 @@ function About(props: any) {
                     My experience can be divided into three main categories: Front-end development, Game development and Software development.
                     </p>
                     <p className={'text-justify'}>After experiencing different kinds of software development I found myself in Front-end development. Favourite weapon in project building
-                        for me is React , which together with Typescript allow me writing fast, rich, stable and reusable code.</p>
+                        for me is React , which together with Typescript allows me writing fast, rich, stable and reusable code.</p>
                 </Row>
                 <Row className={'about-personal'}>
                     <h2>Personal information</h2>

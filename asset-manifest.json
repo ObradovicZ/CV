@@ -1,0 +1,25 @@
+{
+  "files": {
+    "main.css": "/CV/static/css/main.29dd6a6f.chunk.css",
+    "main.js": "/CV/static/js/main.44ad0155.chunk.js",
+    "main.js.map": "/CV/static/js/main.44ad0155.chunk.js.map",
+    "runtime-main.js": "/CV/static/js/runtime-main.95215c98.js",
+    "runtime-main.js.map": "/CV/static/js/runtime-main.95215c98.js.map",
+    "static/js/2.a56289aa.chunk.js": "/CV/static/js/2.a56289aa.chunk.js",
+    "static/js/2.a56289aa.chunk.js.map": "/CV/static/js/2.a56289aa.chunk.js.map",
+    "static/js/3.4de0bb79.chunk.js": "/CV/static/js/3.4de0bb79.chunk.js",
+    "static/js/3.4de0bb79.chunk.js.map": "/CV/static/js/3.4de0bb79.chunk.js.map",
+    "index.html": "/CV/index.html",
+    "static/css/main.29dd6a6f.chunk.css.map": "/CV/static/css/main.29dd6a6f.chunk.css.map",
+    "static/js/2.a56289aa.chunk.js.LICENSE.txt": "/CV/static/js/2.a56289aa.chunk.js.LICENSE.txt",
+    "static/media/frontEnd-logos.29bbc066.png": "/CV/static/media/frontEnd-logos.29bbc066.png",
+    "static/media/gameDev-logos.c6d9e8a6.png": "/CV/static/media/gameDev-logos.c6d9e8a6.png",
+    "static/media/softwareDev-logos.8bbfce84.png": "/CV/static/media/softwareDev-logos.8bbfce84.png"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.95215c98.js",
+    "static/js/2.a56289aa.chunk.js",
+    "static/css/main.29dd6a6f.chunk.css",
+    "static/js/main.44ad0155.chunk.js"
+  ]
+}

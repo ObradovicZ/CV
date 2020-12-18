@@ -15,7 +15,7 @@ function Sidebar() {
              xs={{span: 12}}
              className={'background-primary text-white pl-0'}>
             {/*<div className={'sidebar background-third '}/>*/}
-            <SidebarImageAndName image={PlaceholderImage} text={'Full Name'}/>
+            <SidebarImageAndName image={PlaceholderImage} text={'Full Name'} altText={'Image of me'}/>
             <Row className={'ml-0'}>
                 {paths.map((pathName, index) => {
                     const isActive = pathName === path;

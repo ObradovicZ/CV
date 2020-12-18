@@ -47,9 +47,9 @@ function About(props: any) {
                  className={'mb-4'}>
                 <h2 className={'w-100 text-center mb-4'}>Experienced in: </h2>
                 <Row className={'about-experience-wrapper'}>
-                    <AboutExperience text={'Frontend development'} image={FrontEndLogo}/>
-                    <AboutExperience text={'Game development'} image={GameDevLogo}/>
-                    <AboutExperience text={'Software development'} image={SoftwareDevLogo}/>
+                    <AboutExperience text={'Frontend development'} image={FrontEndLogo} altText={"Front-end development skills"}/>
+                    <AboutExperience text={'Game development'} image={GameDevLogo} altText={"Game development skills"}/>
+                    <AboutExperience text={'Software development'} image={SoftwareDevLogo} altText={"Software development skills"}/>
                 </Row>
             </Col>
         </div>

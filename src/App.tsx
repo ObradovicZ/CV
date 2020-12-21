@@ -17,7 +17,7 @@ import ContentWrapper from "./components/hoc/ContentWrapper";
 function App() {
     return (
         <div className="app">
-            <HashRouter>
+            <HashRouter basename={'/'}>
                 <Row className={'h-100 w-100 mx-0'}>
                     <Sidebar/>
                     <Switch>

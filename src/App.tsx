@@ -2,7 +2,6 @@ import './sass/App.scss'
 import React from 'react';
 import {
     HashRouter,
-    BrowserRouter as Router,
     Switch,
     Route,
 } from 'react-router-dom';

@@ -1,10 +1,12 @@
-import React, {useState} from 'react';
+import React, {useEffect,useState} from 'react';
 import {Col, Row} from 'react-bootstrap';
 import SidebarImageAndName from "./reusable/SidebarImageAndName";
 import SidebarLink from "./reusable/SidebarLink";
 function Sidebar() {
-    const [path, setPath] = useState('/');
+
+    const [path, setPath] = useState(window.location.hash.substring(1));
     const paths = ['/', '/about', '/resume'];
+    
     return (
         <Col xl={{span: 2}}
              lg={{span: 3}}

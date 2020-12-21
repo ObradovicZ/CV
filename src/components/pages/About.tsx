@@ -22,20 +22,24 @@ function About(props: any) {
                 <Row className={'flex-column about-about'}>
                     <h2>Front-end developer</h2>
                     <p className={'text-justify'}>Fast. Optimized. Reusable. Precise.</p>
-                    <p className={'text-justify'}>Hello! My name is Zoran and I enjoy developing sites, games and software generally.
-                    My experience can be divided into three main categories: Front-end development, Game development and Software development.
+                    <p className={'text-justify'}>Hello! My name is Zoran and I enjoy developing sites, games and
+                        software generally.
+                        My experience can be divided into three main categories: Front-end development, Game development
+                        and Software development.
                     </p>
-                    <p className={'text-justify'}>After experiencing different kinds of software development I found myself in Front-end development. Favourite weapon in project building
-                        for me is React , which together with Typescript allows me writing fast, rich, stable and reusable code.</p>
+                    <p className={'text-justify'}>After experiencing different kinds of software development I found
+                        myself in Front-end development. Favourite weapon in project building
+                        for me is React, which together with Typescript allows me writing fast, rich, stable and
+                        reusable code. Strong knowledge of OOP shapes my developing process.</p>
                 </Row>
                 <Row className={'about-personal'}>
                     <h2>Personal information</h2>
-                        {personalInfo.map((data, index) => (
-                            <div className={'d-flex w-100 mb-2'} key={index}>
-                                <span className={'font-weight-bold'}>{data.property}:</span>
-                                <span className={'ml-auto'}>{data.value}</span>
-                            </div>
-                        ))}
+                    {personalInfo.map((data, index) => (
+                        <div className={'d-flex w-100 mb-2'} key={index}>
+                            <span className={'font-weight-bold'}>{data.property}:</span>
+                            <span className={'ml-auto'}>{data.value}</span>
+                        </div>
+                    ))}
                 </Row>
             </Col>
             <Col xl={{span: 10, offset: 1}}
@@ -45,9 +49,11 @@ function About(props: any) {
                  className={'mb-4'}>
                 <h2 className={'w-100 text-center mb-4'}>Experienced in: </h2>
                 <Row className={'about-experience-wrapper'}>
-                    <AboutExperience text={'Frontend development'} image={FrontEndLogo} altText={"Front-end development skills"}/>
+                    <AboutExperience text={'Frontend development'} image={FrontEndLogo}
+                                     altText={"Front-end development skills"}/>
                     <AboutExperience text={'Game development'} image={GameDevLogo} altText={"Game development skills"}/>
-                    <AboutExperience text={'Software development'} image={SoftwareDevLogo} altText={"Software development skills"}/>
+                    <AboutExperience text={'Software development'} image={SoftwareDevLogo}
+                                     altText={"Software development skills"}/>
                 </Row>
             </Col>
         </div>
